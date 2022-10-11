@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,400;1,600 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@500 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Fredoka+One & display=swap');
+
+body{
+    background-color: #0d3b66;
+    margin: 0px;  
+}
+
+.main-login{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+}
+
+.login-left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-left > h1{
+    color: #f4d35e;
+    font-size: 2.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-left > img{
+    max-width: 350px;
+    min-width: 250px;
+
+}
+
+.login-right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-right{
+    width: 60%;
+    background-color: #ee964b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
+.card-right > h1{
+    color: #0d3b66;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+.textcard{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textcard > label{
+    font-size: 18px;
+    color: #0d3b66;
+    margin: 10px 0px 0px 0px;
+}
+
+.textcard > input{
+    width: 100%;
+    background-color: #ffdb8c;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #998333;
+    font-family: arial;
+    font-size: 12pt;
+}
+
+.btn-login{
+    font-size: 12pt;
+    background-color: #f4d35e;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+    box-shadow: 0px 0px 10px #998333;
+}
+
+main{
+    background-color: #f4d35e;
+    margin: 0px;
+    height: 97vh;
+    display: flex;
+}
+
+.text-left{
+    display: flex;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    color:#0d3b66;
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-family: ;
+}
+
+.image-right > img{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.three-aba{
+    height: 550px;
+}
+
+.three-aba > h1{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 
+}
+
+.equipe{
+    background-color: #ee964b;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+.trabalho{
+    background-color: #ffdb8c;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+.mercado{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+
+.equipe > h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: sans-serif;              
+}
+.trabalho >h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: sans-serif;               
+}
+.mercado > h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: sans-serif; 
+}
+
+footer{
+    background-color: #f4d35e;
+    color: #0d3b66;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*Para celulares*/
+@media (max-width: 320px) {
+    .main-login{
+        flex-direction: column;
+    }
+
+    .login-left{
+        width: 100vw;
+    }
+
+    .login-right{
+        width: 100vw;
+    }
+
+    img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+
+    .login-left > h1{
+        display: none;
+    }
+
+    .login-right{
+        height: 50vh;
+    }
+
+    .main-login{
+        height: 99vh;
+    }
+
+    .two-login{
+        flex-direction: column;
+    }
+
+    .text-left{
+        width: 100vw;
+    }
+
+    .image-right{
+        width: 100vw;
+    }
+
+    .three-aba{
+        height: 95vh;
+    }
+
+    .container{
+        flex-direction: column;   
+    }
+
+    .equipe{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .trabalho{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .mercado{
+        margin: 15px 0px 15px 0px;
+    }
+}

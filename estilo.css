@@ -1,0 +1,282 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0d3b66;
+    margin: 0px;  
+}
+
+.main-login{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+}
+
+.login-left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-left > h1{
+    color: #f4d35e;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-left > img{
+    max-width: 350px;
+    min-width: 250px;
+
+}
+
+.login-right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-right{
+    width: 60%;
+    background-color: #ee964b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
+.card-right > h1{
+    color: #0d3b66;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.textcard{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcard > label{
+    font-size: 18px;
+    color: #0d3b66;
+    margin: 10px 0px 0px 0px;
+}
+
+.textcard > input{
+    width: 100%;
+    background-color: #ffdb8c;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #998333;
+    font-family: arial;
+    font-size: 12pt;
+}
+
+.btn-login{
+    font-size: 12pt;
+    background-color: #f4d35e;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+    box-shadow: 0px 0px 10px #998333;
+}
+
+main{
+    background-color: #f4d35e;
+    margin: 0px;
+    height: 97vh;
+    display: flex;
+}
+
+.text-left{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:#0d3b66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-right > img{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.three-aba{
+    height: 550px;
+}
+
+.three-aba > h1{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.equipe{
+    background-color: #ee964b;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+.trabalho{
+    background-color: #ffdb8c;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+.mercado{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+}
+
+.equipe > h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: Arial, Helvetica, sans-serif;              
+}
+.trabalho >h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: Arial, Helvetica, sans-serif;               
+}
+.mercado > h1{
+    margin: 0px;
+    align-items: flex-end;
+    color:#0d3b66;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+footer{
+    background-color: #f4d35e;
+    color: #0d3b66;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 10px;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+@media (max-width: 900px){
+
+    body{
+        margin: 0px;
+    }
+
+    .main-login{
+        flex-direction: column;
+    }
+
+    .login-left{
+        width: 100%;
+    }
+
+    .login-left > h1{
+        display: none;
+    }
+
+    .login-left > img{
+        width: 50vw;
+    }
+
+    .login-right{
+        width: 100%;
+    }
+
+    .card-right{
+        width: 60vw;
+        margin: auto;
+    } 
+
+    .two-login{
+        flex-direction: column;
+    }
+
+    .text-left{
+        width: 100%;
+    }
+
+    .text-left > h1 {
+        text-align: center;
+    }
+
+    .image-right{
+        width: auto;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .container{
+        flex-direction: column;
+        width: 100vw;
+        margin: 0px;
+    }
+
+    .equipe{
+        margin: auto;
+        margin-top: 25px;
+    }   
+
+    .trabalho{
+        margin: auto;
+        margin-top: 25px;               
+    }
+
+    .mercado{
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    footer > p{
+        margin: 20px;
+        padding: 0px;
+    }
+}
